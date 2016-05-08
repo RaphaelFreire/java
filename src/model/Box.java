@@ -5,6 +5,7 @@ package model;
  * Instruções às classes
  * Criação da Classe box
  * Capítulo 6 - Página 110
+ * Alterado: Capítulo 7 - Página 133 
  */
 
 public class Box {
@@ -13,19 +14,23 @@ public class Box {
     double height;
     double depth;
     
-    // Este é o construtor para Box
-    Box(){
-        System.out.println("Construindo um Box");
-        width = 10;
-        height = 10;
-        depth = 10;
-    }
-    
-    // Este é o construtor para Box
+    // Este é o construtor para Box usado quando todas as dimensões são especificadas
     Box(double w, double h, double d){
         width = w;
         height = h;
         depth = d;
+    }
+    
+    // Construtor usado quando as dimensões não são especificadas
+    Box(){
+        width = -1;
+        height = -1;
+        depth = -1;
+    }
+    
+    // Construtor usado quando é criado um cubo
+    Box(double len){
+       width = height = depth = len;
     }
     
     // calcular e retornar o volume
