@@ -6,6 +6,7 @@ package model;
  * Criação da Classe box
  * Capítulo 6 - Página 110
  * Alterado: Capítulo 7 - Página 133 
+ * Alterado: Capítulo 7 - Página 135
  */
 
 public class Box {
@@ -20,6 +21,14 @@ public class Box {
         height = h;
         depth = d;
     }
+    
+    //Observe este construtor. Ele leva um objeto do tipo Box.
+    Box(Box ob){
+        width = ob.width;
+        height = ob.height;
+        depth = ob.depth;
+    }
+    
     
     // Construtor usado quando as dimensões não são especificadas
     Box(){
