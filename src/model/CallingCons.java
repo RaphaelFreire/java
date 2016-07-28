@@ -7,7 +7,7 @@ package model;
  * Capítulo 8 - Página 174
  */
 
-//Criar uma superclasse
+// Criar uma superclasse
 class A5{
     A5(){
         System.out.println("Dentro do construtor de A.");
