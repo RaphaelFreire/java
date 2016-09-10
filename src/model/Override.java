@@ -3,7 +3,7 @@ package model;
 /**
  * @author raphaelmachadofreire
  * Herança
- * Criar uma superclasse
+ * Sobrescrição de métodos
  * Capítulo 8 - Página 175
  */
 
