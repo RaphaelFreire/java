@@ -32,7 +32,6 @@ package model;
     
 
     class AnotherClient implements Callback{
-        //Implementar a interface de Callback
         public void callback(int p){
             System.out.println("Outra versão de callback");
             System.out.println("p ao quadrado é " + (p*p));
