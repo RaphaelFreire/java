@@ -21,6 +21,7 @@ public class Exc2 {
         catch(ArithmeticException e){
             // capturar o erro de divisão por zero
             System.out.println("Divisão por zero.");
+            System.out.println("Após a instrução catch");
         }
     }
 }
