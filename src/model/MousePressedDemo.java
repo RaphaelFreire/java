@@ -3,7 +3,7 @@ package model;
 /**
  * @author raphaelmachadofreire 
  * Este applet Não usa uma classe interna
- * Capítulo 23 - Página 722
+ * Capítulo 23 - Página 723
  */
 
 import java.applet.*;
@@ -22,7 +22,7 @@ import java.awt.event.*;
 //        addMouseListener(new MyMouseAdapter(this));
 //    }
 //}
-
+//
 //class MyMouseAdapter extends MouseAdapter{
 //    
 //    MousePressedDemo mousePressedDemo;
