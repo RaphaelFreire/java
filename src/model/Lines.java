@@ -2,9 +2,10 @@ package model;
 
 /**
  * @author raphaelmachadofreire 
- * Cria uma aplicação baseado em AWT 
+ * Desenhado Linhas em AWT
  * Capítulo 24 - Página 739
  */
+
 //Desenhando linhas
 import java.awt.*;
 import java.applet.*;
